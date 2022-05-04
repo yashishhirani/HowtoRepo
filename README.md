@@ -9,5 +9,6 @@ Let's make a repository, here are the methods:
 5) In Terminal, type "git add ." to add the files in it to the repository
 6) In Terminal, type "git commit -m "Commit Title" -m "Commit Description"
 7) Then start connection with GitHub through, in Terminal, "git remote add origin (add the SSH link you see when you made an empty Repo)". To check if connection is live, use line, "git remote -v"
-8) Now in Terminal, input, "git push origin master", and the file will be pushed onto the initialised repo onto github.
-9) 
+8) Put command "git remote set-url origin https://github.com/<user_name>/<repo_name>.git"
+9) Now in Terminal, input, "git push origin master", and the file will be pushed onto the initialised repo onto github.
+10) YAY!! 
