@@ -1,6 +1,6 @@
 # How to Make a Repository Using VS Code
 
-Let's make a repository, here are the methods:
+## Let's make a repository, here are the methods:
 
 1) First make a new (Empty) Repository using your Git Account. 
 2) Make a new Folder on VS Code, and go into the directory of that folder using the line "cd ../foldername"
@@ -12,3 +12,12 @@ Let's make a repository, here are the methods:
 8) Put command "git remote set-url origin https://github.com/<user_name>/<repo_name>.git"
 9) Now in Terminal, input, "git push origin master", and the file will be pushed onto the initialised repo onto github.
 10) YAY!! 
+
+## Makinging New Branches
+
+1) Check branch using "git branch"
+2) To make new use command, "git checkout -b <name-of-branch>"
+3) To switch branches, use command, "git checkout <name-of-branch>"
+4) To look at difference between two branches. Go to master branch, then type "git diff <name-of-branch>"
+5) Then, push the file edits onto git hub new branch using, "git push origin <name-of-branch>"
+
